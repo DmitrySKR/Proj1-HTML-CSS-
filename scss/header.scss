@@ -1,0 +1,96 @@
+.top_hello_img {
+    width: 100%;
+    background-image: url('../Images/Background Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top_hello {
+    max-width: 940px;
+    margin: auto;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+    &_flex1 {
+        max-width: 940px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &_flex2 {
+        max-width: 860px;
+        height: 265px;
+        font-family: $font;
+        color: white;
+        padding-bottom: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        & h1 {
+            text-transform: uppercase;
+            font-size: 75px;
+            padding-bottom: 15px;
+        }
+
+        & h2 {
+            text-transform: uppercase;
+            font-size: 40px;
+            padding-bottom: 15px;
+        }
+
+        & .butt {
+            padding: 15px;
+            text-transform: uppercase;
+            font-family: $font;
+            font-size: 24px;
+            color: white;
+            background-color: $gold;
+            border-radius: 5px;
+        }
+
+    }
+}
+
+.golden {
+    color: $gold;
+    font-size: 34px;
+    font-family: 'Wisdom Script', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    max-width: 480px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-right:20px;
+}
+
+.socials li {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: $font;
+    margin: 10px;
+
+
+    & a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: lightgrey;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.logos {
+    margin: 60px auto;
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    & .logo {
+        width: 200px;
+        height: 45px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 20px;
+
+        &1 {
+            background-image: url('../Images/Envato.png');
+        }
+
+        &2 {
+            background-image: url('../Images/WordPress.png');
+        }
+
+        &3 {
+            background-image: url('../Images/Tuts+.png');
+        }
+
+        &4 {
+            background-image: url('../Images/Microlancer copy.png');
+        }
+    }
+
+}

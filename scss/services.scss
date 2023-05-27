@@ -1,0 +1,64 @@
+.services {
+    max-width: 940px;
+    margin: 120px auto;
+
+    & h2 {
+        @include h2_form
+    }
+
+    & h4 {
+        @include h4_form
+    }
+
+    &_flex {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_child {
+        width: calc(33% - 46.6px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        
+
+        &_icon {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 4px solid $gold;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 70%;
+
+            &1 {
+                background-image: url('../Images/Icon-Basket.png');
+            }
+
+            &2 {
+                background-image: url('../Images/Icon-Laptop.png');
+            }
+
+            &3 {
+                background-image: url('../Images/Icon-Locked.png');
+                background-size: 55%;
+            }
+        }
+
+        & h2 {
+            margin: 10px 0;
+            font-size: 18px;
+            font-family: $font;
+        }
+
+        & p {
+            color: #989898;
+            font-size: 18px;
+            text-align: center;
+        }
+
+    }
+}

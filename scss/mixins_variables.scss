@@ -1,0 +1,35 @@
+$gold: #fdd135;
+$font:'Arial MT', sans-serif;
+
+@mixin h2_form {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Arial MT', sans-serif;
+
+}
+
+
+@mixin h4_form {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 16px;
+    text-align: center;
+    color: #989898;
+
+}
+
+@mixin h2_portfolio {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Arial MT', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+@mixin h4_portfolio {
+    font-size: 14px;
+    text-align: center;
+    color: #989898;
+
+}

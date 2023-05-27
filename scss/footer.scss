@@ -1,0 +1,42 @@
+.footer{
+    width: 100%;
+    background-color: #fff;
+    color: #555;
+    &_main{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+        &_item:last-child{
+            height: 0;
+            width: 250px;
+        }
+        &_item_ul{
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            width: 190px;
+            &_item{
+                width: 40px;
+                background-color: black;
+                background-repeat: no-repeat;
+                background-position: center;
+                border-radius: 50%;
+
+            }
+            &_item:nth-child(1){
+                background-image: url('../Images/Twitter (2).png');
+            }
+            &_item:nth-child(2){
+                background-image: url('../Images/FaceBook (1).png');
+            }
+            &_item:nth-child(3){
+                background-image: url('../Images/Pinterest (2).png');
+            }
+            &_item:nth-child(4){
+                background-image: url('../Images/Google+ (1).png');
+            }
+        }
+    }
+    
+}

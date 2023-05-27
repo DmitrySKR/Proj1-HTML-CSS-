@@ -1,0 +1,103 @@
+.team {
+    background-color: #f9f9f9;
+
+    &new {
+        max-width: 780px;
+        margin: auto;
+        padding: 120px 0;
+
+        &_h2 {
+            @include h2_form;
+            margin: 0
+        }
+
+        &_h4 {
+            @include h4_form;
+        }
+
+        &_h4_new {
+            margin-top: 50px;
+            font-size: 16px;
+            text-align: center;
+            color: #989898;
+
+            &:last-child {
+                margin-top: 10px ;
+            }
+        }
+
+        &_flex {
+            display: flex;
+            justify-content: space-between;
+
+            &_item {
+                width: calc(33% - 40px);
+                
+
+                &_ball {
+                    height: 220px;
+                    width: 220px;
+                    background-color: black;
+                    border-radius: 50%;
+                    margin: auto;
+                }
+
+                &_nick {
+                    margin-top: 40px;
+                    margin-bottom: 10px;
+                    &_h2 {
+                        @include h2_portfolio;
+                        margin:0;
+                    }
+
+                    &_h4 {
+                        @include h4_portfolio;
+                        font-family: $font;
+                        margin: 0;
+                    }
+                }
+                &_socials{
+                    width: 140px;
+                    height: 40px;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-between;
+                    &1{ 
+                    width: 100px;
+                    }
+                    &_item{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        box-sizing: border-box;
+                        border: 2px solid black;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        & a{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        }
+                        &1{
+                            background-image: url('../Images/Twitter.png');
+                            background-size: 75%;
+                        }
+                        &2{
+                            background-image: url('../Images/Facebook.png');
+                            background-size: 40%;
+                        }
+                        &3{
+                            background-image: url('../Images/Pinterest.png');
+                            background-size: 55%;
+                        }
+                        &4{
+                            background-image: url('../Images/Google+.png');
+                            background-size: 60%;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
